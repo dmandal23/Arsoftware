@@ -1,0 +1,137 @@
+{% extends "frontend/base.html" %}
+
+{% block title%} Home Page  {% endblock %}
+
+
+{% block body %}
+
+
+
+    <main>
+        <section class="home flex justify-center items-center ">
+            <div class="text-area">
+                <div class="title mb-md">Build amazing digital products!</div>
+                <div class="description mb-md" style="width: 60%;">The best way to build, run and grow professional grade web and mobile applications that power your business
+                </div>
+                <div class="contact btn " style="padding-right:15px;" onclick="window.location.href=/contact/;">
+                    <div class="text mr-md">Contact Us</div>
+                    <div class="go ml-sm"><img src="/static/custom/images/go.svg"></div>
+                </div>
+
+            </div>
+            <div class="image-area">
+                <img src="/static/custom/images/homefirst.png">
+            </div>
+        </section>
+        <section class="imagine flex items-center mt-xl mb-xl">
+            <div class="image-area"><img src="/static/custom/images/imagine.png"></div>
+            <div class="text-area ml-xl">
+                <div class="title">Imagine, Build, Create!</div><br>
+                <div class="description">
+                    We will bring forth your imagination to reality. We work closely with you and provide technical skills and execution startegy to success in business.
+                    <br> <br> Custom software adds value to your business, builds brand and produces never thought of opportunities. We envision, design & develop software platforms to help you achieve your business goals. Give us a call and we will deliver
+                    the product you requested at an affordable cost.
+                </div>
+            </div>
+        </section>
+
+        <section class="vision text-center flex flex-column justify-center items-center">
+            <div class="red-title ma-md" style="font-size: 48px;">We create bigger opportunities for your business</div>
+            <div class="line ma-md"></div>
+            <div class="title-2  ma-md">Our Vision</div>
+            <div class="title ma-md">
+                To enable our partners and clients with technological skill set and help achieve their business goals.
+            </div>
+            <div class="line ma-md"></div>
+            <div class="title-2  ma-md">Our Commitment</div>
+            <div class="title ma-md">
+                To build and deploy stable, working mobile and web applications that provide business value.
+            </div>
+        </section>
+
+        <section class="stack mt-xl mb-xl">
+            <div class="title mb-xl">What Our Technology Stack Looks Like</div>
+            <div class="contents flex justify-between">
+                <img src="/static/custom/images/stack.svg" class="stack1">
+                <img src="/static/custom/images/stack2.svg" class="stack2" style="display: none;">
+                <div class="lines lines-stack flex">
+                    <div class="line-vertical mr-xl" style="height: unset; width:10px;"></div>
+                    <div class="line-vertical" style="height: unset; width:10px;"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="whyus flex flex-column justify-end items-center">
+
+            <div class=" flex flex-column justify-center items-center relative">
+                <div class="teams absolute" style="left:50;right:50; margin-top:-700px;">
+                    <div class="items-center justify-center flex" style="height: 150px;">
+                        <div class="one flex justify-center items-center flex-column pa-xl">
+                            <div class="description">Active Clients</div>
+                            <div class="title">330+</div>
+                        </div>
+                        <div class="one flex justify-center items-center flex-column pa-xl">
+                            <div class="description">Projects Done</div>
+                            <div class="title">100+</div>
+                        </div>
+                        <div class="one flex justify-center items-center flex-column pa-xl">
+                            <div class="description">Team Members</div>
+                            <div class="title">85+</div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="title mb-md"><i>Why Us?</i></div>
+                <div class="description text-center" style="width: 80%;">Count on us as our experience in proven track records with previous partnerships doing all the talking for us. LLC is trusted by clients worldwide, from the big brands to newly formed startups. But our priority remains the same - to work
+                    together, explore your needs and provide options in building web and mobile apps that fit perfectly with your business requirements. Recommended by many firms, our partnership is sought-out actively as we work to manifest your dreams
+                    to reality. We find solutions to your tech challenges; your investments will deliver value as quickly as possible.
+                </div>
+            </div>
+            <div class="items flex flex-wrap justify-evenly items-center pa-xl">
+                <div class="item pa-xl" style="width: 30%;">
+                    <div class="line"></div>
+                    <div class="why-icon1"><img src="/static/custom/images/why-icon1.svg" alt=""></div>
+                    <div class="description">We develop and transform complex business software, digital platforms to simple and easy integration for the administrator to manage. We adapt and provide flexibility tracking any changes and future trends to fulfill your needs for
+                        tomorrow.
+                    </div>
+                </div>
+                <div class="item pa-xl" style="width: 30%;">
+                    <div class="line"></div>
+                    <div class="why-icon1"><img src="/static/custom/images/why-icon2.svg" alt=""></div>
+                    <div class="description">
+                        We conduct a regular discussion about client's projects, understanding the needs and details to develop product, solutions and upgrades. We provide back and forth communication to ensure complete satisfactory approval to forward the project into production.
+                    </div>
+                </div>
+                <div class="item pa-xl" style="width: 30%;">
+                    <div class="line"></div>
+                    <div class="why-icon1"><img src="/static/custom/images/why-icon3.svg" alt=""></div>
+                    <div class="description">
+                        We consistently deliver success with our proven methods in developing custom software and mobile apps by building the most valuable features with the right team behind us. Also with thoughtful strategic planning and execution and not compromising the
+                        quality, we believe success is an achievable target. With our expertise and drive, we deliver excellence in each step.
+                    </div>
+                </div>
+                <div class="item pa-xl" style="width: 30%;">
+                    <div class="line"></div>
+                    <div class="why-icon1"><img src="/static/custom/images/why-icon4.svg" alt=""></div>
+                    <div class="description">
+                        With experienced teams of engineers and IT technicians in our team, we have till date benefited and impacted millions of people and businesses worldwide. Our team is highly motivated and driven to provide you with world-class solutions for your software
+                        needs. We treat your problem as our own.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+    </main>
+
+    {% endblock %}
+
+    <script src="/static/custom/js/main.js" type="text/javascript"></script>
+    <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const myname = urlParams.get('name')
+        document.getElementById("yourname").innerHTML = myname;
+    </script>

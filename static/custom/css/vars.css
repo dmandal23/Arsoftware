@@ -1,0 +1,51 @@
+/* Light theme */
+
+:root {
+    --primary-color: #EF3934;
+    --accent-color: #2E2D46;
+    --font-color: #0E0D1F;
+    --light-color: white;
+    --dark-color: #0E0D1F;
+    --danger-color: rgb(252, 59, 59);
+    --gray-color: rgb(202, 201, 201);
+    --primary-font: "Red hat Display", sans-serif;
+    --nav-item-size: 14px;
+    --nav-logo-size: 2.1rem;
+    --title-size: 48px;
+    --sub-title-size: 36px;
+    --normal-font: 16px;
+    --small-heading-size: 11px;
+    --wrapper-padding: 7.5vw;
+    --border-radius: 500px;
+    --xs: 4px;
+    --sm: 8px;
+    --md: 14px;
+    --lg: 24px;
+    --xl: 48px;
+}
+
+/* Dark theme */
+
+/* :root{
+	--primary-color: #4FE795;
+	--accent-color: #2E2D46;
+	--font-color: #fff;
+	--light-color: #0a0a0a;
+	--danger-color:rgb(252, 59, 59);
+	--gray-color: rgb(202, 201, 201);
+	--primary-font: "Poppins", sans-serif;
+	--secondary-font: "Oswald", sans-serif;
+	--nav-item-size:14px;
+	--nav-logo-size:2.1rem;
+	--title-size:24px;
+	--sub-title-size:14px;
+	--small-heading-size:11px;
+	--wrapper-padding:7.5vw;
+	--border-radius:5px;
+	--xs: 4px;
+	--sm: 8px;
+	--md: 14px;
+	--lg: 24px;
+	--xl: 48px;
+
+} */
